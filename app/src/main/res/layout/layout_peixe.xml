@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:background="#fafafa"
+        android:layout_margin="5dp"
+        android:minHeight="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/textnome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font"
+                    android:text="@string/nome"/>
+                <TextView
+                    android:id="@+id/nomePeixe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/fontMin"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font"
+                    android:text="@string/origem"/>
+
+                <TextView
+                    android:id="@+id/origemPeixe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/fontMin"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font"
+                    android:text="@string/porte"/>
+
+                <TextView
+                    android:id="@+id/portePeixe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/fontMin"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/font"
+                    android:text="@string/isca"/>
+                <TextView
+                    android:id="@+id/iscaPeixe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/fontMin"/>
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

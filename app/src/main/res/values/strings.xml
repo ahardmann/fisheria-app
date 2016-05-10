@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fisheria</string>
+    <string name="action_settings">Settings</string>
+    <string name="tittle">Fisheria</string>
+    <string name="erro_autenticao">Acesso Negado</string>
+    <string name="usuario">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="nome">Nome: </string>
+    <string name="porte">Porte: </string>
+    <string name="origem">Origem:</string>
+    <string name="isca">Isca:</string>
+    <string name="salvar">Salvar</string>
+    <string name="opcoes">Opções</string>
+    <string name="excluir">Excluir</string>
+    <string name="campoVazio">Campo não pode estar vazio!</string>
+    <string name="registro_salvo">Salvo</string>
+    <string name="erro_salvar">Não foi possivel salvar!</string>
+    <string name="confirmacao_exclusao">Deseja mesmo deletar?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+    <string-array name="opcoes">
+        <item>Peixes</item>
+        <item>Adicionar</item>
+    </string-array>
+
+    <string-array name="origem_op">
+        <item>Água Doce</item>
+        <item>Água Salgada</item>
+    </string-array>
+
+    <string-array name="porte_op">
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string-array name="isca_op">
+        <item>Isca Artificial</item>
+        <item>Isca Viva</item>
+        <item>Camarão Branco</item>
+    </string-array>
+
+    </resources>
