@@ -49,18 +49,6 @@ public class PeixeDao {
         return peixes;
     }
 
-//    public Peixe buscaPorId(Long id){
-//        Cursor cursor = getDb().query(DatabaseHelper.Peixe.TABELA, DatabaseHelper.Peixe.COLUNAS
-//                , DatabaseHelper.Peixe._ID +" = ?", new String[]{id.toString()}, null, null, null);
-//
-//        if(cursor.moveToNext()){
-//            Peixe peixeU = criarPeixe(cursor);
-//            cursor.close();
-//            return peixeU;
-//        }
-//        return null;
-//    }
-
     public long inserirPeixe(Peixe peixe){
         ContentValues values = new ContentValues();
         values.put(DatabaseHelper.Peixe.NOME, peixe.getNome());

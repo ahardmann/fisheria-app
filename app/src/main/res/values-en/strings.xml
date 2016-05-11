@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fisheria</string>
+    <string name="action_settings">Settings</string>
+    <string name="tittle">Fisheria</string>
+    <string name="erro_autenticao">Access denied</string>
+    <string name="usuario">User</string>
+    <string name="senha">Password</string>
+    <string name="entrar">Login</string>
+    <string name="nome">Name: </string>
+    <string name="porte">Size: </string>
+    <string name="origem">Origin:</string>
+    <string name="isca">Bait:</string>
+    <string name="salvar">Save</string>
+    <string name="opcoes">Options</string>
+    <string name="excluir">Delete</string>
+    <string name="campoVazio">Field can not be empty!</string>
+    <string name="registro_salvo">Saved</string>
+    <string name="erro_salvar">Could not save !</string>
+    <string name="confirmacao_exclusao">Do you really want to delete ?</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="lembrar">Remember-me?</string>
+
+    <string-array name="opcoes">
+        <item>Fishes</item>
+        <item>Add new fish</item>
+    </string-array>
+
+    <string-array name="origem_op">
+        <item>Freshwater</item>
+        <item>Salty water</item>
+    </string-array>
+
+    <string-array name="porte_op">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="isca_op">
+        <item>Artificial bait</item>
+        <item>Live bait</item>
+        <item>White shrimp</item>
+    </string-array>
+
+    </resources>

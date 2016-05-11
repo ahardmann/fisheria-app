@@ -20,6 +20,7 @@
     <string name="confirmacao_exclusao">Deseja mesmo deletar?</string>
     <string name="sim">Sim</string>
     <string name="nao">Não</string>
+    <string name="lembrar">Lembrar-me?</string>
 
     <string-array name="opcoes">
         <item>Peixes</item>

@@ -43,12 +43,26 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"/>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:onClick="enterOnClick"
-            android:text="@string/entrar"/>
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="enterOnClick"
+                android:text="@string/entrar"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkLembrar"
+                android:layout_weight="0.5"
+                android:text="@string/lembrar"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
